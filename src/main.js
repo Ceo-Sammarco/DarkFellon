@@ -1,3 +1,5 @@
+
+
 import plugin from '../plugin.json';
 import style from "./style.scss";
 const settings = acode.require('settings');
@@ -9,7 +11,7 @@ const { editor } = editorManager
  * monokai
  */
 // only modify this name and nothing else 
-const themeName = "vscode-dark"
+const themeName = "dark-fellon"
 // go to style.scss and change colors there
 
 ace.define(`ace/theme/${themeName}.css`, ["require", "exports", "module"], function (require, exports, module) { module.exports = style }),
