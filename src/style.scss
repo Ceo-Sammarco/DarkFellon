@@ -3,18 +3,18 @@
  */
 
 .ace-dark-fellon {
-  color: #ddd; // default color
-  background-color: #16181c; // background-color of editor container 
+  color: #999; // default color
+  background-color: #212329; // background-color of editor container 
   
   // left side line number area
   .ace_gutter {
-    color: #16181c; // for line number color
+    color: #999; // for line number color
     // background-color: ;  if not added it will be same as editor container
   }
   
   // Active line for left side Line number area
   .ace_gutter-active-line {
-    color: #daa520; // for line number color active line
+    color: #fc0fc0; // for line number color active line
     // background-color: ; if not added it will be same as editor container
   }
   
@@ -125,7 +125,7 @@
   // in js style, length etc
   // in css auto, inset, inline-block etc
   .ace_support.ace_constant {
-    color: #ce9178
+    color: #ff7815 // #ce9178
   }
   
   // in js any variable or import starting with uppercase
@@ -146,13 +146,14 @@
   
   // tag name in html <div>
   .ace_meta.ace_tag {
-    color: #57afff
+    // color: #57afff
+    color: #f14c4c;
   }
   
   // let const var also =>
   .ace_storage,
   .ace_storage.ace_type {
-    color: #57afff
+    color: #f14c4c // #57afff
   }
   
   .ace_invalid {
@@ -167,7 +168,7 @@
   
   // string
   .ace_string {
-    color: #ce9178
+    color: #eee // #ce9178
   }
   
   // comment
@@ -191,12 +192,12 @@
   // function parameters (abc) =>
   .hljs-params,
   .ace_variable.ace_parameter {
-    color: #aef1ff
+    color: #ff7815 // #aef1ff
   }
   
   // attribute name in html
   .ace_entity.ace_other.ace_attribute-name {
-    color: #aef1ff
+    color: #ff7815 // #aef1ff
   }
   
   // <> in html
@@ -208,7 +209,7 @@
   // html tag
   .ace_tag-name.ace_tag,
   .ace_entity.ace_name.ace_tag {
-    color: #57afff
+    color: #f14c4c // #57afff
   }
   
   .ace_paren {

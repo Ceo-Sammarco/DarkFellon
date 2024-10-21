@@ -27,6 +27,7 @@
     "sass-loader": "^13.2.0"
   },
   "scripts": {
+    "b": "webpack --mode production",
     "build": "webpack",
     "build-release": "webpack --mode production",
     "start-dev": "node .vscode/start-dev"
